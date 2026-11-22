@@ -1,0 +1,14 @@
+id: mock-01
+title: "Full practice test 1"
+description: >-
+  All four sections in the 2026 order — Reading, Listening, Writing, Speaking (about 1.5–2 hours).
+  No feedback is shown until the end. You need your LLM key and Deepgram key, a microphone and headphones.
+reading: reading-form-01
+listening: listening-form-01
+writing:
+  build_sentence: bas-set-01
+  email: email-01
+  discussion: discussion-01
+speaking:
+  listen_repeat: lr-set-01
+  interview: interview-01

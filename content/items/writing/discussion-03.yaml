@@ -1,0 +1,28 @@
+id: discussion-03
+task: academic-discussion
+section: writing
+title: "Academic Discussion · Reducing plastic waste"
+time_limit_s: 600
+directions: >-
+  Your professor is teaching a class on environmental science. Write a post responding to the professor's question.
+  In your response, express and support your opinion and make a contribution to the discussion.
+  An effective response will contain at least 100 words. You have 10 minutes.
+items:
+  - id: discussion-03-plastic
+    cefr: B2
+    course: Environmental Science
+    professor:
+      name: Dr. Osei
+      text: >-
+        Governments have tried different approaches to reducing plastic waste. Some ban single-use plastic items
+        such as bags and straws, while others rely on public education campaigns that encourage people to change
+        their habits voluntarily. Which approach do you think is more effective, and why?
+    students:
+      - name: Sofia
+        text: >-
+          Bans work faster. When my city banned plastic bags, almost everyone started bringing their own bags within
+          a few months. Education campaigns are nice, but many people simply ignore them.
+      - name: Ethan
+        text: >-
+          I think education is more effective in the long run. If people understand why plastic is harmful, they
+          will reduce their use of many products, not only the few items that are banned.

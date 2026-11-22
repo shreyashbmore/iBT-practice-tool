@@ -1,0 +1,18 @@
+id: email-03
+task: write-an-email
+section: writing
+title: "Email · Course discussion board"
+time_limit_s: 420
+directions: "Read the situation and write an email. You have 7 minutes. Address all of the points below."
+items:
+  - id: email-03-feedback
+    cefr: B2
+    recipient: "Professor Okafor"
+    subject: "Feedback on the new discussion board"
+    scenario: >-
+      This semester, Professor Okafor started using a new online discussion board for your sociology course.
+      She has asked students to send her feedback by email before she decides whether to keep using it next year.
+    points:
+      - "Describe one thing you like about the discussion board."
+      - "Describe one problem you have had with it."
+      - "Suggest a change that would improve it."

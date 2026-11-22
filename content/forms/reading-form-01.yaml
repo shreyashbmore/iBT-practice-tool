@@ -1,0 +1,10 @@
+id: reading-form-01
+section: reading
+title: "Reading section test · Form 1"
+directions: >-
+  This test adapts to you like the real Reading section: after the first module, the second module is easier or
+  harder depending on how you did.
+router: [cw-01, daily-01, academic-01]
+lower: [cw-02, daily-02]
+upper: [cw-03, academic-02]
+upper_threshold: 0.6

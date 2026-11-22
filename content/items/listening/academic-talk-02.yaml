@@ -1,0 +1,31 @@
+id: talk-02
+task: listen-academic-talk
+section: listening
+title: "Academic Talk · Network effects"
+time_limit_s: 240  # approximate
+directions: "Listen to part of a lecture. Then answer the questions. You will hear it only once."
+items:
+  - id: talk-02-a
+    cefr: C1
+    context: "Part of a lecture in an economics class"
+    lines:
+      - {speaker: Professor, voice: male, text: "Let's move on to a concept that explains why some technology products become dominant so quickly: network effects. A product has a network effect when it becomes more valuable to each user as more people use it."}
+      - {speaker: Professor, voice: male, text: "The telephone is the textbook example. A single telephone is useless. Two telephones allow one conversation. But a million telephones connect every user to an enormous number of potential contacts. Today we see the same pattern in messaging apps and online marketplaces."}
+      - {speaker: Professor, voice: male, text: "Now, network effects have an important consequence. Once a product gets ahead, new users have a strong reason to choose it over competitors, even if a competitor is technically better. Economists call this lock-in. That's why companies are often willing to lose money at first, giving the product away or offering big discounts, just to build a large user base before their rivals do."}
+    questions:
+      - id: q1
+        prompt: "What is a network effect?"
+        options: ["A product becomes cheaper as it gets older.", "A product becomes more valuable to each user as more people use it.", "A company copies a competitor's network.", "Users prefer products with better technology."]
+        answer: 1
+      - id: q2
+        prompt: "Why does the professor talk about telephones?"
+        options: ["To illustrate how value grows with the number of users", "To explain how telephones were invented", "To compare old and new technology prices", "To show that telephones are no longer useful"]
+        answer: 0
+      - id: q3
+        prompt: "What does the professor mean by \"lock-in\"?"
+        options: ["Users stay with the leading product even when a better one exists.", "Companies prevent users from leaving by contract.", "Products are protected by patents.", "Users cannot install competing apps."]
+        answer: 0
+      - id: q4
+        prompt: "According to the professor, why do companies sometimes lose money at first?"
+        options: ["Their products are badly designed.", "They want to build a large user base quickly.", "Governments require low prices.", "Their rivals force them to."]
+        answer: 1

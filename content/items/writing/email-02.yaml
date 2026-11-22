@@ -1,0 +1,19 @@
+id: email-02
+task: write-an-email
+section: writing
+title: "Email · Apartment heating"
+time_limit_s: 420
+directions: "Read the situation and write an email. You have 7 minutes. Address all of the points below."
+items:
+  - id: email-02-heating
+    cefr: B1
+    recipient: "Mr. Chen, building manager"
+    subject: "Heating problem in my apartment"
+    scenario: >-
+      You live in a student apartment building. For the past week the heating in your apartment has not been
+      working properly, and the weather has turned very cold. You already reported it once by phone, but nothing
+      has happened.
+    points:
+      - "Describe the problem."
+      - "Explain how it is affecting you."
+      - "Request a specific action and a time for it."

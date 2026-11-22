@@ -1,0 +1,35 @@
+id: daily-01
+task: read-daily-life
+section: reading
+title: "Read in Daily Life · Water shut-off notice"
+time_limit_s: 240  # approximate
+directions: "Read the text and answer the questions."
+items:
+  - id: daily-01-a
+    cefr: B1
+    genre: email
+    title: "Water shut-off in Maple Hall"
+    text: |-
+      Dear residents,
+
+      On Thursday, March 14, the water in Maple Hall will be turned off from 9:00 a.m. to 1:00 p.m. while plumbers replace a broken pipe on the second floor. During this time, you can use the showers and restrooms in the fitness center next door.
+
+      Please do not leave taps open, as this may cause flooding when the water is turned back on. If you have questions, reply to this email or visit the front desk.
+
+      Residential Life Office
+    questions:
+      - id: q1
+        prompt: "Why will the water be turned off?"
+        options: ["The building is being cleaned.", "A pipe is being replaced.", "The fitness center is opening.", "Residents used too much water."]
+        answer: 1
+        explanation: "Plumbers will 'replace a broken pipe on the second floor'."
+      - id: q2
+        prompt: "What are residents asked to do?"
+        options: ["Shower before 9:00 a.m.", "Keep their taps closed.", "Move to the second floor.", "Call a plumber."]
+        answer: 1
+        explanation: "'Please do not leave taps open' — open taps could cause flooding."
+      - id: q3
+        prompt: "Where can residents use a restroom during the shut-off?"
+        options: ["At the front desk", "On the second floor", "In the fitness center", "In another residence hall"]
+        answer: 2
+        explanation: "The showers and restrooms in the fitness center next door are available."

@@ -1,0 +1,36 @@
+id: academic-01
+task: read-academic-passage
+section: reading
+title: "Academic Passage · Urban heat islands"
+time_limit_s: 420  # approximate
+directions: "Read the passage and answer the questions."
+items:
+  - id: academic-01-a
+    cefr: B2
+    title: "The Urban Heat Island"
+    text: |-
+      Cities are often several degrees warmer than the countryside around them, a pattern known as the urban heat island effect. The main cause is the material that cities are built from. Asphalt, concrete and brick absorb sunlight during the day and release the stored heat slowly at night, so urban areas cool down much less after sunset than rural ones. In addition, cities have fewer trees and less open soil. In the countryside, plants release water vapor through their leaves, and this evaporation cools the surrounding air. Heat produced by cars, air conditioners and factories adds further warmth.
+
+      The effect is more than an inconvenience. Higher night-time temperatures increase energy use and can be dangerous for elderly people during heat waves. Some cities are responding by painting roofs white so that they reflect more sunlight, and by planting trees along streets. Studies suggest that such measures can lower local temperatures by one to two degrees.
+    questions:
+      - id: q1
+        prompt: "What is the passage mainly about?"
+        options: ["The history of building materials", "Why cities are warmer than nearby rural areas, and how they respond", "How heat waves affect farmers", "The best trees to plant in cities"]
+        answer: 1
+      - id: q2
+        prompt: "According to the passage, why do cities cool down slowly at night?"
+        options: ["Their building materials release stored heat.", "They receive more sunlight at night.", "Wind cannot reach the city center.", "People open their windows."]
+        answer: 0
+      - id: q3
+        prompt: "In paragraph 1, the phrase \"this evaporation\" refers to"
+        options: ["heat released by asphalt", "water vapor released by plants", "air conditioning", "rain falling on open soil"]
+        answer: 1
+      - id: q4
+        prompt: "Which of the following is NOT mentioned as a source of extra heat in cities?"
+        options: ["Cars", "Air conditioners", "Factories", "Swimming pools"]
+        answer: 3
+      - id: q5
+        prompt: "What can be inferred about white roofs?"
+        options: ["They are more expensive than trees.", "They absorb less sunlight than darker roofs.", "They increase energy use.", "They are required by law."]
+        answer: 1
+        explanation: "They are painted white 'so that they reflect more sunlight'."

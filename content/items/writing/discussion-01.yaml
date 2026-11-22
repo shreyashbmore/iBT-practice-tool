@@ -1,0 +1,28 @@
+id: discussion-01
+task: academic-discussion
+section: writing
+title: "Academic Discussion · Four-day workweek"
+time_limit_s: 600
+directions: >-
+  Your professor is teaching a class on business. Write a post responding to the professor's question.
+  In your response, express and support your opinion and make a contribution to the discussion.
+  An effective response will contain at least 100 words. You have 10 minutes.
+items:
+  - id: discussion-01-workweek
+    cefr: B2
+    course: Business
+    professor:
+      name: Dr. Morgan
+      text: >-
+        Several companies around the world have experimented with a four-day workweek, keeping salaries the same
+        while reducing working hours. Supporters say employees become more productive; critics worry about costs
+        and customer service. Do you think a four-day workweek benefits both employees and companies? Why or why not?
+    students:
+      - name: Priya
+        text: >-
+          I think it is a win for everyone. When people have an extra day to rest, they come back focused and
+          make fewer mistakes. Companies also save money on things like electricity when the office is closed.
+      - name: Daniel
+        text: >-
+          I'm not convinced. Many businesses need to be available to customers five or even seven days a week.
+          Squeezing the same work into four days could also make employees more stressed, not less.

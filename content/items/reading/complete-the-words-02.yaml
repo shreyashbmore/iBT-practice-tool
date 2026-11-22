@@ -1,0 +1,14 @@
+id: cw-02
+task: complete-the-words
+section: reading
+title: "Complete the Words · Morning routine"
+time_limit_s: 180  # approximate
+directions: "Fill in the missing letters to complete the words in the paragraph."
+items:
+  - id: cw-02-a
+    cefr: A2
+    title: My morning
+    text: >-
+      My name is Ana and I live near the river. Every [[morning]] I walk [[to]] the bus [[stop]] with my
+      [[sister]]. The bus [[takes]] about twenty [[minutes]] to get [[to]] our school. In the [[evening]] we
+      usually [[cook]] dinner together.

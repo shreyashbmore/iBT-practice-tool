@@ -1,0 +1,28 @@
+id: daily-02
+task: read-daily-life
+section: reading
+title: "Read in Daily Life · Café hours"
+time_limit_s: 180  # approximate
+directions: "Read the text and answer the questions."
+items:
+  - id: daily-02-a
+    cefr: A2
+    genre: notice
+    title: "Campus Café — New Hours"
+    text: |-
+      Starting Monday, the Campus Café will open at 7:30 a.m. instead of 8:00 a.m.
+      We will close at 6:00 p.m. on weekdays and at 3:00 p.m. on Saturdays. We are closed on Sundays.
+      Bring your own cup and get 10% off any hot drink!
+    questions:
+      - id: q1
+        prompt: "What time will the café open starting Monday?"
+        options: ["7:00 a.m.", "7:30 a.m.", "8:00 a.m.", "3:00 p.m."]
+        answer: 1
+      - id: q2
+        prompt: "How can customers get a discount?"
+        options: ["By coming before 8:00 a.m.", "By buying two drinks", "By bringing their own cup", "By visiting on Saturday"]
+        answer: 2
+      - id: q3
+        prompt: "When is the café closed?"
+        options: ["On Mondays", "On Saturdays", "On Sundays", "Every evening after 3:00 p.m."]
+        answer: 2

@@ -1,0 +1,20 @@
+# secrets & local data
+.env
+data/
+docs/ets/
+# python
+__pycache__/
+*.pyc
+.venv/
+.pytest_cache/
+# node
+node_modules/
+.next/
+next-env.d.ts
+# os
+.DS_Store
+content/drafts/
+# evaluation: private material (ETS samples, volunteer audio) and caches stay local
+eval/private/
+eval/cache/
+eval/runs/

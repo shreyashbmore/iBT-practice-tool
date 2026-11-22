@@ -1,0 +1,35 @@
+id: academic-02
+task: read-academic-passage
+section: reading
+title: "Academic Passage · How birds navigate"
+time_limit_s: 420  # approximate
+directions: "Read the passage and answer the questions."
+items:
+  - id: academic-02-a
+    cefr: C1
+    title: "Magnetic Navigation in Birds"
+    text: |-
+      Many migratory birds travel thousands of kilometers between breeding and wintering grounds, often returning to the very same location each year. How they find their way has puzzled scientists for centuries. Birds are known to use several cues, including the position of the sun, the pattern of stars and familiar landmarks. Yet experiments show that some species can still orient themselves under overcast skies, when none of these cues is available.
+
+      This observation led researchers to propose that birds can sense Earth's magnetic field. One hypothesis holds that light-sensitive proteins in the eye, called cryptochromes, undergo chemical reactions that are influenced by magnetic fields, allowing birds to effectively "see" magnetic lines. A competing hypothesis points to tiny particles of iron-rich minerals in the beak. Evidence for the second idea has weakened, however, since researchers discovered that many of these particles belong to immune cells rather than nerve cells. Most scientists now suspect that birds combine several systems, relying on whichever cue is most reliable at a given moment.
+    questions:
+      - id: q1
+        prompt: "Why does the author mention experiments under overcast skies?"
+        options: ["To show that birds avoid flying in bad weather", "To suggest that birds must use a cue other than the sun, stars or landmarks", "To explain why migration takes so long", "To argue that experiments on birds are unreliable"]
+        answer: 1
+      - id: q2
+        prompt: "According to the passage, cryptochromes are"
+        options: ["minerals found in the beak", "proteins in the eye that may respond to magnetic fields", "immune cells", "landmarks birds memorize"]
+        answer: 1
+      - id: q3
+        prompt: "Why has the evidence for the beak hypothesis weakened?"
+        options: ["The particles were found to belong to immune cells, not nerve cells.", "Birds without beaks could still navigate.", "Iron is not magnetic.", "The particles are too large to detect fields."]
+        answer: 0
+      - id: q4
+        prompt: "The word \"competing\" in paragraph 2 is closest in meaning to"
+        options: ["rival", "cooperative", "older", "proven"]
+        answer: 0
+      - id: q5
+        prompt: "Which statement best summarizes the author's conclusion?"
+        options: ["Birds rely only on the stars.", "The eye hypothesis has been proven.", "Birds probably use several navigation systems, depending on conditions.", "Scientists have stopped studying migration."]
+        answer: 2

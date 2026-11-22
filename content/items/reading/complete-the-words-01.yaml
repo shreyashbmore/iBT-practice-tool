@@ -1,0 +1,14 @@
+id: cw-01
+task: complete-the-words
+section: reading
+title: "Complete the Words · Study skills"
+time_limit_s: 180  # approximate
+directions: "Fill in the missing letters to complete the words in the paragraph."
+items:
+  - id: cw-01-a
+    cefr: B1
+    title: Study skills workshops
+    text: >-
+      Many universities offer study skills workshops for new students. These [[workshops]] teach students [[how]]
+      to manage [[their]] time, take [[useful]] notes, and [[prepare]] for exams. [[Students]] who attend [[them]]
+      often feel [[more]] confident during [[their]] first semester. Workshops are free and open to everyone.

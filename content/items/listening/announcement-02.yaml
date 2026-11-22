@@ -1,0 +1,29 @@
+id: ann-02
+task: listen-announcement
+section: listening
+title: "Announcement · Lab safety module"
+time_limit_s: 180  # approximate
+directions: "Listen to the announcement. Then answer the questions. You will hear it only once."
+items:
+  - id: ann-02-a
+    cefr: B2
+    context: "An announcement for chemistry students"
+    lines:
+      - {speaker: Coordinator, voice: male, text: "Good afternoon. This is a reminder for students in the chemistry program. Starting next week, anyone entering the teaching labs must have completed the updated online safety module, even if you took the previous version last year. The new module takes about forty minutes and ends with a short quiz; you need at least eighty percent to pass. Your lab instructor will be notified automatically when you finish, so there's no need to bring a certificate. Students who haven't completed it won't be allowed to take part in experiments, and missed sessions can't be made up."}
+    questions:
+      - id: q1
+        prompt: "What is the main purpose of the announcement?"
+        options: ["To introduce a new chemistry instructor", "To explain a new requirement for using the labs", "To cancel next week's lab sessions", "To announce quiz results"]
+        answer: 1
+      - id: q2
+        prompt: "What must students who completed last year's module do?"
+        options: ["Nothing", "Bring their old certificate", "Complete the updated module", "Retake last year's quiz"]
+        answer: 2
+      - id: q3
+        prompt: "How will instructors know that a student has finished the module?"
+        options: ["Students show a certificate.", "Students email them.", "They receive an automatic notification.", "They check the quiz in class."]
+        answer: 2
+      - id: q4
+        prompt: "What does the speaker imply about students who miss a lab session?"
+        options: ["They can attend a make-up session.", "They will lose the chance to do that experiment.", "They must pay a fee.", "They will be removed from the program."]
+        answer: 1

@@ -1,0 +1,15 @@
+id: cw-03
+task: complete-the-words
+section: reading
+title: "Complete the Words · Coral reefs"
+time_limit_s: 180  # approximate
+directions: "Fill in the missing letters to complete the words in the paragraph."
+items:
+  - id: cw-03-a
+    cefr: C1
+    title: Coral reefs
+    text: >-
+      Coral reefs cover less than one percent of the ocean floor. [[However]], they support [[roughly]] a quarter
+      of [[all]] marine species. [[Rising]] water temperatures cause [[corals]] to expel the [[algae]] that provide
+      [[them]] with food, a [[process]] known as [[bleaching]]. If [[conditions]] do not improve, the [[reefs]]
+      may never recover.

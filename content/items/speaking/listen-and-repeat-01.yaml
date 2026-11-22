@@ -1,0 +1,31 @@
+id: lr-set-01
+task: listen-and-repeat
+section: speaking
+title: "Listen and Repeat · Campus orientation"
+time_limit_s: 300
+scene: "Orientation day. A student guide is showing new students around the campus."
+directions: >-
+  You will hear a speaker say a sentence. After the beep, repeat exactly what you heard.
+  Recording starts automatically and stops when the time is up. You will hear each sentence only once.
+items:
+  - id: lr-01-01
+    cefr: A1
+    text: "Welcome to the student center."
+  - id: lr-01-02
+    cefr: A2
+    text: "The library is open every day until midnight."
+  - id: lr-01-03
+    cefr: A2
+    text: "You can pick up your student card at the front desk."
+  - id: lr-01-04
+    cefr: B1
+    text: "Most first-year students live in the dormitories near the sports field."
+  - id: lr-01-05
+    cefr: B1
+    text: "If you need help choosing your classes, make an appointment with an advisor."
+  - id: lr-01-06
+    cefr: B2
+    text: "The dining hall offers vegetarian options, although they tend to run out early on weekends."
+  - id: lr-01-07
+    cefr: C1
+    text: "Students who register for the writing workshop before Friday will receive a discount on the course materials."

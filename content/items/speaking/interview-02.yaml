@@ -1,0 +1,23 @@
+id: interview-02
+task: take-an-interview
+section: speaking
+title: "Interview · Campus transportation survey"
+time_limit_s: 300
+scene: >-
+  The city transportation office is interviewing students about how they travel to campus.
+directions: >-
+  The interviewer will ask you four questions. Answer each one right after the beep. You have about
+  45 seconds per answer. There is no preparation time.
+items:
+  - id: interview-02-q1
+    cefr: A2
+    question: "Hello, and thanks for your time. How do you usually get to campus, and how long does the trip take?"
+  - id: interview-02-q2
+    cefr: B1
+    question: "What is one thing you would change about public transportation in your area?"
+  - id: interview-02-q3
+    cefr: B2
+    question: "Some people say the city should make buses free for students. What effects do you think that might have?"
+  - id: interview-02-q4
+    cefr: C1
+    question: "In your opinion, should cities invest more in bike lanes or in public transit? Please explain your reasoning."

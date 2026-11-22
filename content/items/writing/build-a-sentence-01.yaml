@@ -1,0 +1,88 @@
+id: bas-set-01
+task: build-a-sentence
+section: writing
+title: "Build a Sentence · Campus life 1"
+time_limit_s: 360  # approximate
+directions: >-
+  Read the message. Then put the word groups in the correct order to complete the reply.
+  Click a word group to place it in the next empty space; click a placed group to remove it.
+items:
+  - id: bas-01-01
+    cefr: A2
+    speaker: Classmate
+    context: "Did you finish the reading for tomorrow's seminar?"
+    template: "Not yet, but [] [] [] [] tonight."
+    answer: ["I", "will", "finish it", "before class"]
+    distractors: ["finished"]
+    explanation: "Future plan: subject + will + base verb + object, then the time phrase."
+  - id: bas-01-02
+    cefr: B1
+    speaker: Classmate
+    context: "Why weren't you at the study group yesterday?"
+    template: "Sorry, [] [] [] [] ran much longer than expected."
+    answer: ["my", "meeting", "with", "my advisor"]
+    distractors: ["was"]
+    explanation: "The subject is a noun phrase ('my meeting with my advisor') followed by the verb 'ran'."
+  - id: bas-01-03
+    cefr: A2
+    speaker: New student
+    context: "Where can I find the schedule for the campus shuttle?"
+    template: "You [] [] [] [] the transportation office website."
+    answer: ["can", "download", "it", "from"]
+    distractors: ["where"]
+    explanation: "Modal + verb + object pronoun + preposition: 'can download it from'."
+  - id: bas-01-04
+    cefr: B1
+    speaker: Friend
+    context: "What did you think of the guest lecture?"
+    template: "I thought [] [] [] [] than the last one."
+    answer: ["it", "was", "much more", "engaging"]
+    distractors: ["most"]
+    explanation: "Comparative with 'than' needs 'more + adjective'; 'much' intensifies the comparative."
+  - id: bas-01-05
+    cefr: A2
+    speaker: Visitor
+    context: "Could you tell me when the library closes on weekends?"
+    template: "I'm not sure, but [] [] [] [] at six."
+    answer: ["I", "think", "it", "closes"]
+    distractors: ["does"]
+    explanation: "Statement word order after 'I think': subject + verb ('it closes')."
+  - id: bas-01-06
+    cefr: B1
+    speaker: Classmate
+    context: "Has the professor posted the grades for the midterm?"
+    template: "She said [] [] [] [] by Friday."
+    answer: ["they", "would", "be", "available"]
+    distractors: ["being"]
+    explanation: "Reported speech after 'said' backshifts 'will' to 'would'."
+  - id: bas-01-07
+    cefr: B1
+    speaker: Club organizer
+    context: "Are you joining the volunteer cleanup this Saturday?"
+    template: "I'd love to, [] [] [] [] a shift at work."
+    answer: ["but", "I", "already", "have"]
+    distractors: ["had"]
+    explanation: "'already' goes before the main verb 'have'; 'but' introduces the contrast."
+  - id: bas-01-08
+    cefr: B1
+    speaker: Lab partner
+    context: "Do you know whether the lab is open during spring break?"
+    template: "The sign on the door [] [] [] [] closed all week."
+    answer: ["says", "that", "it", "will be"]
+    distractors: ["being"]
+    explanation: "Main verb 'says' + that-clause with a future verb 'will be'."
+  - id: bas-01-09
+    cefr: B2
+    speaker: Advisor
+    context: "Why did you decide to change your major?"
+    template: "I realized [] [] [] [] working with data."
+    answer: ["that", "I", "really", "enjoy"]
+    explanation: "Adverb 'really' sits before the verb it modifies: 'I really enjoy'."
+  - id: bas-01-10
+    cefr: B1
+    speaker: Roommate
+    context: "How was your first week at the internship?"
+    template: "It was busy, [] [] [] [] a lot already."
+    answer: ["but", "I", "have", "learned"]
+    distractors: ["learning"]
+    explanation: "Present perfect (have + past participle) with 'already'."

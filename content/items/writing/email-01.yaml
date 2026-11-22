@@ -1,0 +1,18 @@
+id: email-01
+task: write-an-email
+section: writing
+title: "Email · Hiking club trip"
+time_limit_s: 420
+directions: "Read the situation and write an email. You have 7 minutes. Address all of the points below."
+items:
+  - id: email-01-hiking
+    cefr: B1
+    recipient: "Ms. Alvarez, hiking club coordinator"
+    subject: "Upcoming club trip"
+    scenario: >-
+      You recently joined your university's hiking club. The coordinator, Ms. Alvarez, sent a message saying
+      that next month's weekend trip to the mountains may be canceled because not enough members have signed up.
+    points:
+      - "Explain why you want the trip to go ahead."
+      - "Suggest a way to get more members to sign up."
+      - "Ask a question about the trip."

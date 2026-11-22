@@ -1,0 +1,10 @@
+id: listening-form-01
+section: listening
+title: "Listening section test · Form 1"
+directions: >-
+  This test adapts to you like the real Listening section: after the first module, the second module is easier or
+  harder depending on how you did. Each recording plays only once.
+router: [lcr-01, conv-01, talk-01]
+lower: [lcr-02, ann-01]
+upper: [ann-02, talk-02]
+upper_threshold: 0.6

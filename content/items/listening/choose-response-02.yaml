@@ -1,0 +1,31 @@
+id: lcr-02
+task: listen-choose-response
+section: listening
+title: "Listen and Choose a Response · Campus 2"
+time_limit_s: 120  # approximate
+directions: "You will hear a person speak. Choose the best response. You will hear each one only once."
+items:
+  - id: lcr-02-a
+    cefr: A2
+    lines: [{speaker: Student, voice: male, text: "Where's the nearest printer?"}]
+    questions:
+      - id: q1
+        prompt: "Choose the best response."
+        options: ["There's one on the second floor.", "It prints in color.", "Yesterday.", "I don't have paper money."]
+        answer: 0
+  - id: lcr-02-b
+    cefr: A2
+    lines: [{speaker: Student, voice: female, text: "What time does the seminar start?"}]
+    questions:
+      - id: q1
+        prompt: "Choose the best response."
+        options: ["In room 104.", "At two o'clock.", "Professor Lee.", "For about an hour."]
+        answer: 1
+  - id: lcr-02-c
+    cefr: A2
+    lines: [{speaker: Student, voice: male, text: "Excuse me, is this seat taken?"}]
+    questions:
+      - id: q1
+        prompt: "Choose the best response."
+        options: ["I took it home.", "Yes, I sit.", "No, go ahead.", "The seat is soft."]
+        answer: 2

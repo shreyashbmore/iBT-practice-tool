@@ -1,0 +1,28 @@
+id: discussion-02
+task: academic-discussion
+section: writing
+title: "Academic Discussion · Programming for all majors"
+time_limit_s: 600
+directions: >-
+  Your professor is teaching a class on education policy. Write a post responding to the professor's question.
+  In your response, express and support your opinion and make a contribution to the discussion.
+  An effective response will contain at least 100 words. You have 10 minutes.
+items:
+  - id: discussion-02-programming
+    cefr: B2
+    course: Education Policy
+    professor:
+      name: Dr. Nakamura
+      text: >-
+        Some universities now require every student, regardless of major, to complete at least one course in
+        computer programming. Is this a good requirement? Should universities make it mandatory, or should it
+        remain a choice for students? Explain your view.
+    students:
+      - name: Lucas
+        text: >-
+          It should be required. Almost every job uses technology now, and even a basic course teaches logical
+          thinking. Students in history or art can use programming to analyze data for their own projects.
+      - name: Amira
+        text: >-
+          I disagree. Students already have many required courses, and adding another one could delay graduation.
+          It would be better to offer optional workshops for students who are actually interested.

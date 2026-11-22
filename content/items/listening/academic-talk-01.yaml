@@ -1,0 +1,31 @@
+id: talk-01
+task: listen-academic-talk
+section: listening
+title: "Academic Talk · The spacing effect"
+time_limit_s: 240  # approximate
+directions: "Listen to part of a lecture. Then answer the questions. You will hear it only once."
+items:
+  - id: talk-01-a
+    cefr: B1
+    context: "Part of a lecture in a psychology class"
+    lines:
+      - {speaker: Professor, voice: female, text: "Today I want to talk about something called the spacing effect. It's one of the most reliable findings in memory research. The basic idea is simple: if you study the same material in several shorter sessions spread over time, you'll remember it much better than if you study it all at once, which is what students usually call cramming."}
+      - {speaker: Professor, voice: female, text: "In one classic experiment, two groups studied a list of vocabulary words for the same total amount of time. One group studied in a single session; the other spread the study over three days. A month later, the second group remembered almost twice as many words."}
+      - {speaker: Professor, voice: female, text: "Why does this happen? One explanation is that each time you come back to the material, you have to work a little to recall it, and that effort strengthens the memory. So, when you plan for your final exams, it really pays to start early."}
+    questions:
+      - id: q1
+        prompt: "What is the lecture mainly about?"
+        options: ["How to write vocabulary lists", "A study technique that improves long-term memory", "Why final exams are difficult", "The history of psychology experiments"]
+        answer: 1
+      - id: q2
+        prompt: "In the experiment, what was different between the two groups?"
+        options: ["The total study time", "The words they studied", "How their study time was distributed", "Their age"]
+        answer: 2
+      - id: q3
+        prompt: "According to the professor, why does spacing help memory?"
+        options: ["The effort of recalling material strengthens it.", "Short sessions are less boring.", "Students sleep more.", "The material becomes easier over time."]
+        answer: 0
+      - id: q4
+        prompt: "Why does the professor mention final exams?"
+        options: ["To announce the exam date", "To apply the research to the students' own situation", "To criticize cramming students", "To explain how exams are graded"]
+        answer: 1

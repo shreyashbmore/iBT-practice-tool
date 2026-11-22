@@ -1,0 +1,35 @@
+id: conv-01
+task: listen-conversation
+section: listening
+title: "Conversation · Switching course sections"
+time_limit_s: 240  # approximate
+directions: "Listen to the conversation. Then answer the questions. You will hear it only once."
+items:
+  - id: conv-01-a
+    cefr: B1
+    context: "A student is talking to a clerk at the registrar's office."
+    lines:
+      - {speaker: Student, voice: male, text: "Hi. I'm trying to switch from the morning section of Biology 101 to the afternoon one, but the system won't let me."}
+      - {speaker: Clerk, voice: female, text: "Let me check. The afternoon section is full right now, so the system blocks new registrations."}
+      - {speaker: Student, voice: male, text: "Oh. Is there a waiting list?"}
+      - {speaker: Clerk, voice: female, text: "There is. You can join it, but you'll stay registered in the morning section until a place opens up. That way you don't lose your spot in the course."}
+      - {speaker: Student, voice: male, text: "That makes sense. The problem is that my new job starts at eight, so mornings are really difficult."}
+      - {speaker: Clerk, voice: female, text: "In that case, you could also ask the instructor directly. Sometimes she can approve an extra student if the lab has enough equipment."}
+      - {speaker: Student, voice: male, text: "Great, I'll email her today."}
+    questions:
+      - id: q1
+        prompt: "Why does the student go to the registrar's office?"
+        options: ["To drop Biology 101", "To move to a different section of a course", "To apply for a job", "To pay for lab equipment"]
+        answer: 1
+      - id: q2
+        prompt: "What happens if the student joins the waiting list?"
+        options: ["He loses his place in the morning section.", "He is moved to the afternoon section immediately.", "He keeps his morning place until a spot opens.", "He has to pay an extra fee."]
+        answer: 2
+      - id: q3
+        prompt: "Why does the student want the afternoon section?"
+        options: ["His friends are in it.", "His new job starts in the morning.", "The afternoon instructor is better.", "The morning lab has no equipment."]
+        answer: 1
+      - id: q4
+        prompt: "What does the clerk suggest?"
+        options: ["Contacting the instructor", "Taking the course next year", "Changing jobs", "Registering online later"]
+        answer: 0

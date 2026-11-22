@@ -1,0 +1,23 @@
+id: interview-01
+task: take-an-interview
+section: speaking
+title: "Interview · Study habits research"
+time_limit_s: 300
+scene: >-
+  A university researcher is studying how students prepare for exams. You have agreed to answer a few questions.
+directions: >-
+  The interviewer will ask you four questions. Answer each one right after the beep. You have about
+  45 seconds per answer. There is no preparation time.
+items:
+  - id: interview-01-q1
+    cefr: A2
+    question: "Thanks for joining us. To start, could you tell me where you usually study, and why you like studying there?"
+  - id: interview-01-q2
+    cefr: B1
+    question: "Some students prefer to study alone, while others like studying in groups. Which do you prefer, and why?"
+  - id: interview-01-q3
+    cefr: B2
+    question: "Think about a time when you didn't prepare well for an exam. What happened, and what did you learn from it?"
+  - id: interview-01-q4
+    cefr: C1
+    question: "Many universities are considering replacing final exams with ongoing projects. Do you think that would be a good change? Explain your opinion."

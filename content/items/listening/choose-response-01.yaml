@@ -1,0 +1,39 @@
+id: lcr-01
+task: listen-choose-response
+section: listening
+title: "Listen and Choose a Response · Campus 1"
+time_limit_s: 150  # approximate
+directions: "You will hear a person speak. Choose the best response. You will hear each one only once."
+items:
+  - id: lcr-01-a
+    cefr: B1
+    lines: [{speaker: Classmate, voice: female, text: "Do you know if the library has any study rooms free this afternoon?"}]
+    questions:
+      - id: q1
+        prompt: "Choose the best response."
+        options: ["I think they're all booked until four.", "Yes, I studied there last year.", "The library was built in 1980.", "I'd rather have coffee."]
+        answer: 0
+  - id: lcr-01-b
+    cefr: B1
+    lines: [{speaker: Classmate, voice: male, text: "Would you mind sending me your notes from today's lecture?"}]
+    questions:
+      - id: q1
+        prompt: "Choose the best response."
+        options: ["I mind the lecture.", "Sure, I'll email them to you tonight.", "No, the lecture was today.", "My notes are very long, aren't they?"]
+        answer: 1
+  - id: lcr-01-c
+    cefr: B1
+    lines: [{speaker: Friend, voice: male, text: "I can't believe the bus was late again."}]
+    questions:
+      - id: q1
+        prompt: "Choose the best response."
+        options: ["The bus is blue.", "Yes, I believe in it.", "I know — that's the third time this week.", "Let's take a later one yesterday."]
+        answer: 2
+  - id: lcr-01-d
+    cefr: B2
+    lines: [{speaker: Advisor, voice: female, text: "Have you decided which elective you're taking next semester?"}]
+    questions:
+      - id: q1
+        prompt: "Choose the best response."
+        options: ["I took the bus.", "Next semester starts in the fall.", "Yes, I decided to semester.", "I'm leaning toward photography."]
+        answer: 3

@@ -1,0 +1,25 @@
+id: ann-01
+task: listen-announcement
+section: listening
+title: "Announcement · Snowstorm schedule"
+time_limit_s: 180  # approximate
+directions: "Listen to the announcement. Then answer the questions. You will hear it only once."
+items:
+  - id: ann-01-a
+    cefr: A2
+    context: "An announcement on campus"
+    lines:
+      - {speaker: Announcer, voice: female, text: "Attention, students. Because of tonight's snowstorm, all evening classes after five p.m. are canceled. The library and the student center will close at six. Shuttle buses will keep running until seven, but please expect delays. Tomorrow, morning classes will start two hours late. Check your university email for updates."}
+    questions:
+      - id: q1
+        prompt: "What is the announcement mainly about?"
+        options: ["A new shuttle route", "Schedule changes because of the weather", "Library opening hours next week", "How to check university email"]
+        answer: 1
+      - id: q2
+        prompt: "Until what time will the shuttle buses run?"
+        options: ["Five p.m.", "Six p.m.", "Seven p.m.", "Two hours later than usual"]
+        answer: 2
+      - id: q3
+        prompt: "What will happen tomorrow morning?"
+        options: ["Classes will be canceled.", "Classes will start two hours late.", "The library will open early.", "Shuttles will not run."]
+        answer: 1
